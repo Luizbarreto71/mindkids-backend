@@ -1,5 +1,5 @@
 const { Preference } = require('mercadopago');
-const client = require('../config/mercadopago');
+const client = require('../src/config/mercadopago');
 const User = require('../models/User');
 
 const createPayment = async (req, res) => {
